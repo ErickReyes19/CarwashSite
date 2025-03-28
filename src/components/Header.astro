@@ -1,0 +1,30 @@
+---
+import laptopImg from "../assets/laptop.png";
+
+---
+
+<div class="w-full bg-gradient-to-r from-blue-500 via-purple-500 to-indigo-600 px-6 py-16 shadow-xl rounded-lg">
+    <div class="text-center mb-10">
+        <p class="text-white text-2xl font-semibold tracking-wide">
+            La mejor opción para tu taller
+        </p>
+    </div>
+    <div class="flex flex-col md:flex-row justify-between items-center gap-8">
+        <div class="md:w-[50%] text-white">
+            <h1 class="text-4xl md:text-5xl font-extrabold leading-tight mb-6">
+                Sistema de Gestión para Talleres
+            </h1>
+            <p class="text-lg opacity-90 mb-8">
+                Gestiona tus operaciones de forma eficiente, optimiza el tiempo y mejora la experiencia de tus clientes con nuestro sistema completo.
+            </p>
+            <a href="#cta"
+                class="bg-white text-indigo-600 px-8 py-3 rounded-full font-medium shadow-md hover:bg-gray-100 transition duration-300">
+                Descubre más
+            </a>
+        </div>
+        <div class="md:w-[50%] flex justify-center">
+            <img src={laptopImg.src} alt="Sistema de Gestión" class="rounded-lg w-full max-w-2xl" />
+        </div>
+    </div>
+    
+</div>
